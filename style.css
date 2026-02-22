@@ -7,7 +7,7 @@
 
 body {
     /* Dark wooden desk background vibe */
-    background: url('https://www.transparenttextures.com/patterns/wood-pattern.png'), linear-gradient(to bottom, #2c1e12, #4a3223);
+    background: url('https://www.transparenttextures.com/wood-pattern.png'), linear-gradient(to bottom, #2c1e12, #4a3223);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
     flex-direction: column;
     padding: 30px;
     /* Adding a subtle paper grain texture overlay */
-    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+    background-image: url('https://www.transparenttextures.com/cream-paper.png');
 }
 
 @media (min-width: 768px) {
@@ -176,6 +176,7 @@ body {
 }
 
 .wax-seal-button {
+    position: relative;  /* ADD THIS for the ::before to work */
     width: 120px;
     height: 120px;
     /* Deep red wax color */
