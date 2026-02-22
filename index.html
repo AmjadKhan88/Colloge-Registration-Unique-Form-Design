@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Gateway Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-container">
+    <div class="parchment-scroll">
+        
+        <div class="scroll-roll top"></div>
+        
+        <div class="scroll-content-wrapper">
+            <div class="gate-visual-container">
+                <img src="https://images.unsplash.com/photo-1526565736976-267f5f789c26?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="The Gateway to Knowledge" class="gate-image">
+                <div class="gate-glow"></div>
+            </div>
+
+            <div class="form-container">
+                <div class="form-header">
+                    <span class="compass-icon">⚙️</span> <h1>Gateway to Knowledge</h1>
+                    <h2>Registration Scroll</h2>
+                </div>
+
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <label for="student-name">Student Name (Full Legal Name)</label>
+                        <input type="text" id="student-name" name="student-name" required placeholder="e.g., Ada Lovelace">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="chosen-path">Chosen Path (Intended Major)</label>
+                        <select id="chosen-path" name="chosen-path" required>
+                            <option value="" disabled selected>Select your discipline...</option>
+                            <option value="engineering">Arcane Engineering</option>
+                            <option value="arts">Liberal Arts & Letters</option>
+                            <option value="sciences">Natural Sciences</option>
+                            <option value="business">Commerce & Trade</option>
+                        </select>
+                    </div>
+
+                     <div class="input-group">
+                        <label for="student-id">Scholar ID (If assigned)</label>
+                        <input type="text" id="student-id" name="student-id" placeholder="e.g., #12345">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="mystic-key">Mystic Key (Password)</label>
+                        <input type="password" id="mystic-key" name="mystic-key" required placeholder="••••••••">
+                    </div>
+
+                    <div class="submit-container">
+                        <button type="submit" class="wax-seal-button">
+                            <span>Submit<br>& Embark</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+         <div class="scroll-roll bottom"></div>
+    </div>
+</div>
+
+</body>
+</html>
